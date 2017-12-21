@@ -1,0 +1,94 @@
+body {
+ background: #5AA084;
+ margin: 0 auto;
+}
+
+.parallax {
+      /* The image used */
+  background: url(/public/img/IMG_1532.JPG);
+      /* Set a specific height */
+  height: 500px;
+      /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #5AA083;
+}
+
+a:hover {
+  color: blue;
+  transform: scale(1.1);
+}
+
+.container {
+
+}
+
+.container-text {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: #5AA084;
+  grid-gap: .5em;
+  margin: 4em;
+  padding: 1em;
+  text-align: center;
+  background: #FBFEFD
+}
+
+.about-me {
+  border: 1px solid black;
+  height: 15em;
+  width: 32em;
+  padding: 1em;
+  background: black;
+  color: #BADDCF
+}
+.about-me-list {
+  background: #BADDCF;
+  color: #5AA083;
+  padding: 1em;
+  width: 32em;
+}
+
+.projects {
+  border: 1px solid black;
+  height: 60em;
+  width: 32em;
+  padding: 1em;
+  background: black;
+  color: #BADDCF;
+  margin-top: 1em;
+}
+
+.project-items {
+  background: #BADDCF;
+  color: #5AA083;
+  padding: 1em;
+  width: 32em;
+  margin: 1em;
+}
+
+.resources {
+  border: 1px solid black;
+  height: 5em;
+  width: 32em;
+  padding: 1em;
+  background: black;
+  color: #BADDCF;
+  margin-top: 1em;
+}
+
+.resource-item {
+  background: #BADDCF;
+  color: #5AA083;
+  padding: 1em;
+  width: 28em;
+  margin: 1em;
+}
