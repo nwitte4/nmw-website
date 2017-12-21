@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+
 body {
  background: #5AA084;
  margin: 0 auto;
+ font-family: 'Alegreya', serif;
 }
 
 .parallax {
@@ -64,7 +67,6 @@ a:hover {
   padding: 1em;
   background: black;
   color: #BADDCF;
-  margin-top: 1em;
 }
 
 .project-items {
