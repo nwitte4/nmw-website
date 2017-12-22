@@ -41,7 +41,7 @@ a:hover {
   padding: 1em;
   text-align: center;
   background: #FBFEFD;
-  font-size: 1.05em;
+  font-size: .9em;
 }
 
 .about-me {
@@ -75,6 +75,11 @@ a:hover {
   padding: 1em;
   width: 32em;
   margin: 1em;
+}
+
+.project-item:hover {
+  transform: scale(1.2);
+  border: 1px solid black;
 }
 
 .resources {
