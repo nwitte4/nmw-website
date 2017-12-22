@@ -7,7 +7,7 @@ body {
 
 .parallax {
   /* The image used */
-  background: url(nmw-website/public/img/IMG_1532.JPG);
+  background: url(public/img/IMG_1532.JPG);
   /* Set a specific height */
   height: 500px;
   /* Create the parallax scrolling effect */
