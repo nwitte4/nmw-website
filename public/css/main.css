@@ -4,10 +4,9 @@ body {
   margin: 0 auto;
   font-family: 'Alegreya', serif;
 }
-
 .parallax {
   /* The image used */
-  background: url(img/IMG_1532.JPG);
+  background: url(../img/IMG_1532.JPG);
   /* Set a specific height */
   height: 500px;
   /* Create the parallax scrolling effect */
@@ -84,8 +83,8 @@ a:hover {
 
 .resources {
   border: 1px solid black;
-  height: 15em;
-  width: 32em;
+  height: 14em;
+  width: 31em;
   padding: .8em;
   background: black;
   color: #BADDCF;
@@ -98,5 +97,5 @@ a:hover {
   padding: 1em;
   width: 28em;
   height: 4em;
-  margin: 1em;
+  margin: .5em;
 }
