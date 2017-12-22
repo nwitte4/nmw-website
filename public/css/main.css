@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya');
-
 body {
- background: #5AA084;
- margin: 0 auto;
- font-family: 'Alegreya', serif;
+  background: #5AA084;
+  margin: 0 auto;
+  font-family: 'Alegreya', serif;
 }
 
 .parallax {
-      /* The image used */
+  /* The image used */
   background: url(/public/img/IMG_1532.JPG);
-      /* Set a specific height */
+  /* Set a specific height */
   height: 500px;
-      /* Create the parallax scrolling effect */
+  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -30,19 +29,19 @@ a:hover {
   transform: scale(1.1);
 }
 
-.container {
-
-}
+.container {}
 
 .container-text {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  border: 1px solid black;
   color: #5AA084;
   grid-gap: .5em;
-  margin: 4em;
+  margin: 3em;
   padding: 1em;
   text-align: center;
-  background: #FBFEFD
+  background: #FBFEFD;
+  font-size: 1.05em;
 }
 
 .about-me {
@@ -53,11 +52,12 @@ a:hover {
   background: black;
   color: #BADDCF
 }
+
 .about-me-list {
   background: #BADDCF;
   color: #5AA083;
   padding: 1em;
-  width: 32em;
+  width: 30em;
 }
 
 .projects {
@@ -79,9 +79,9 @@ a:hover {
 
 .resources {
   border: 1px solid black;
-  height: 5em;
+  height: 15em;
   width: 32em;
-  padding: 1em;
+  padding: .8em;
   background: black;
   color: #BADDCF;
   margin-top: 1em;
@@ -92,5 +92,6 @@ a:hover {
   color: #5AA083;
   padding: 1em;
   width: 28em;
+  height: 4em;
   margin: 1em;
 }
