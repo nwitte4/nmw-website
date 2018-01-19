@@ -32,7 +32,7 @@ a:hover {
 
 .container-text {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 50%);
   border: 1px solid black;
   color: #5AA084;
   grid-gap: .5em;
@@ -41,6 +41,19 @@ a:hover {
   text-align: center;
   background: #FBFEFD;
   font-size: .9em;
+}
+
+@media (max-width: 1088px) {
+  .container-text {
+    display: block;
+    margin: 16%
+  }
+  .resources {
+    margin-bottom: 5em;
+  }
+  .projects {
+    margin-top: 20em;
+  }
 }
 
 .about-me {
@@ -61,8 +74,8 @@ a:hover {
 
 .projects {
   border: 1px solid black;
-  height: 60em;
-  width: 32em;
+  height: 73em;
+  width: 36em;
   padding: 1em;
   background: black;
   color: #BADDCF;
@@ -83,7 +96,7 @@ a:hover {
 
 .resources {
   border: 1px solid black;
-  height: 14em;
+  height: 10em;
   width: 31em;
   padding: .8em;
   background: black;
