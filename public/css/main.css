@@ -35,7 +35,7 @@ a:hover {
   grid-template-columns: repeat(2, 50%);
   border: 1px solid black;
   color: #5AA084;
-  grid-gap: .5em;
+  grid-gap: 1em;
   margin: 3em;
   padding: 1em;
   text-align: center;
@@ -60,6 +60,9 @@ a:hover {
   .container-text {
     display: block;
     margin: 1%
+  }
+  .container {
+    margin: 2%;
   }
 }
 
