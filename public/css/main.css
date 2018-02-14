@@ -6,7 +6,7 @@ body {
 }
 .parallax {
   /* The image used */
-  background: url(../img/IMG_1532.JPG);
+  background: url(../img/backgroundimgwebsite.png);
   /* Set a specific height */
   height: 500px;
   /* Create the parallax scrolling effect */
@@ -124,5 +124,7 @@ button {
 }
 
 .siema {
-  background: linear-gradient(black, grey);
+  background: black;
+  border-radius: 5px;
+  overflow: scroll;
 }
