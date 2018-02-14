@@ -4,6 +4,7 @@ body {
   margin: 0 auto;
   font-family: 'Alegreya', serif;
 }
+
 .parallax {
   /* The image used */
   background: url(../img/backgroundimgwebsite.png);
