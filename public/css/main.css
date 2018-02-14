@@ -6,7 +6,7 @@ body {
 }
 .parallax {
   /* The image used */
-  background: url(../img/IMG_1532.JPG);
+  background: url(../img/backgroundimgwebsite.png);
   /* Set a specific height */
   height: 500px;
   /* Create the parallax scrolling effect */
@@ -31,12 +31,12 @@ a:hover {
 .container {}
 
 .container-text {
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
+  /*display: grid;
+  grid-template-columns: repeat(2, 50%);*/
   border: 1px solid black;
   color: #5AA084;
-  grid-gap: 1em;
-  margin: 3em;
+  /*grid-gap: 1em;*/
+  margin: 2em;
   padding: 1em;
   text-align: center;
   background: #FBFEFD;
@@ -68,11 +68,13 @@ a:hover {
 
 .about-me {
   border: 1px solid black;
-  height: 15em;
-  width: 32em;
+  margin: 1em;
+  margin-bottom: 4em;
   padding: 1em;
   background: black;
-  color: #BADDCF
+  color: #BADDCF;
+  display: inline-block;
+  height: 200px;
 }
 
 .about-me-list {
@@ -80,45 +82,49 @@ a:hover {
   color: #5AA083;
   padding: 1em;
   width: 30em;
+  margin-bottom: 1em;
 }
 
-.projects {
+/*.projects {
   border: 1px solid black;
   height: 73em;
   width: 36em;
   padding: 1em;
   background: black;
   color: #BADDCF;
-}
+}*/
 
 .project-item {
   background: #BADDCF;
   color: #5AA083;
   padding: 1em;
-  width: 32em;
+  border: 1px solid black;
+  font-size: 13pt;
+  height: 300px;
+  vertical-align: middle !important;
+  /*width: 32em;*/
   margin: 1em;
 }
 
-.project-item:hover {
+/*.project-item:hover {
   transform: scale(1.2);
   border: 1px solid black;
-}
+}*/
 
-.resources {
-  border: 1px solid black;
-  height: 16em;
-  width: 31em;
-  padding: .8em;
+button {
   background: black;
   color: #BADDCF;
-  margin-top: 1em;
+  font-size: 12pt;
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin: 1em;
+  border: 2px solid #5AA083;
+  border-radius: 5px;
 }
 
-.resource-item {
-  background: #BADDCF;
-  color: #5AA083;
-  padding: 1em;
-  width: 28em;
-  height: 4em;
-  margin: .5em;
+.siema {
+  background: black;
+  border-radius: 5px;
+  overflow: scroll;
 }
